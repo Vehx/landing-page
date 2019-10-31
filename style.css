@@ -77,14 +77,21 @@ section p {
 }
 
 /* Section Images */
-section#home {
-    background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;
-  }
-  
-section#about {
+section#cactus {
     background: url('kaktus1.png') no-repeat center center/cover;
-    /* background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover; */
-  }
+}
+  
+section#info {
+    background-color: green;
+}
+
+section#care {
+    background-color: beige;
+}
+
+section#buy {
+    background-color: green;
+}
 
 .test {
     width: 100%;
