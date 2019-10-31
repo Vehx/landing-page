@@ -55,8 +55,10 @@ body {
     color: white;
 }
 
-.navbar ul li a:hover {
-    color: black;
+.navbar a:hover {
+    color: #414b3a;
+    /* text-decoration: underline; */
+    /* text-shadow: 0px 1px; */
     
 }
 
