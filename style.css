@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     background: #333;
     color: #fff;
     line-height: 1.6;
@@ -78,19 +78,20 @@ section p {
 
 /* Section Images */
 section#cactus {
-    background: url('kaktus1.png') no-repeat center center/cover;
+    background: url('img/kaktus1.png') no-repeat center center/cover;
 }
   
 section#info {
-    background-color: green;
+    background-color: #5F6B57;
 }
 
 section#care {
-    background-color: beige;
+    background-color: #F4E4CD;
+    color: #5B2100
 }
 
 section#buy {
-    background-color: green;
+    background-color: #5F6B57;
 }
 
 .test {
@@ -105,6 +106,8 @@ section#buy {
     margin-bottom: 5%;
 }
 
+
+/* Media Queries */
 @media screen and (max-width: 600px) {
 
     section#about {
