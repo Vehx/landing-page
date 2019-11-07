@@ -76,16 +76,16 @@ section {
     /* scroll-snap-align: center; */
 }
 
-.flexcontainer {
+.flexContainer {
     display: flex;
     margin: 0px 20px;
 }
 
-.flexcontainer p {
+.flexContainer p {
     font-size: 12px;
 }
 
-.infowrapper {
+.infoWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -94,7 +94,7 @@ section {
     margin: 15% 0 0 0;
 }
 
-.infoimage {
+.infoImage {
     width: 115px;
 }
 
@@ -171,7 +171,7 @@ section#buy {
     flex-direction: column;
 }
 
-.buyimage {
+.buyImage {
     width: 175px;
 }
 
