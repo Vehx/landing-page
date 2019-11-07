@@ -104,6 +104,10 @@ section p {
     font-size: 1.5rem;
 }
 
+section#info div div div p {
+    margin: 0 0 0 1%;
+}
+
 /* Section Images */
 section#cactus {
     background: url('img/kaktus1.png') no-repeat center center/cover;
@@ -121,6 +125,7 @@ section#care {
 
 section#buy {
     background-color: #5F6B57;
+    height: 300vh;
 }
 
 .test {
