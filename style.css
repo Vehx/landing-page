@@ -218,6 +218,12 @@ section#buy {
     section#buy {
         height: 100vh;
         flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buyCactusBox {
+        max-width: 375px;
+        padding-top: 15%;
     }
 }
 
