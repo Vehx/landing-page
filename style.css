@@ -113,7 +113,14 @@ section#cactus {
 }
 
 section#cactus .textwrapper {
+    position: absolute;
+    bottom: 0;
     background: rgba(95, 107, 87, 0.452);
+    padding: 0 0 25px 0;
+}
+
+section#cactus .textwrapper p {
+    font-size: 14px; 
 }
   
 section#info {
