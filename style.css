@@ -115,14 +115,14 @@ section#cactus {
     background: url('img/kaktus1.png') no-repeat center center/cover;
 }
 
-section#cactus .textwrapper {
+section#cactus .textWrapper {
     position: absolute;
     bottom: 0;
     background: rgba(95, 107, 87, 0.452);
     padding: 0 20px 25px 20px;
 }
 
-section#cactus .textwrapper p {
+section#cactus .textWrapper p {
     font-size: 14px; 
 }
   
