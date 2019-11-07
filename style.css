@@ -126,18 +126,31 @@ section#care {
 section#buy {
     background-color: #5F6B57;
     height: 300vh;
-}
-
-.test {
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.test > div {
-    display: flex;
-    justify-content: space-around;
+.buyCactusBox {
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    flex-direction: column;
+}
+
+.buyimage {
+    width: 175px;
+}
+
+.buyCactusBox h1 {
     margin-bottom: 5%;
+}
+
+.buyCactusBox p {
+    margin-top: 5%;
+}
+
+.buyCactusBox button {
+    margin-top: 5%;
 }
 
 
