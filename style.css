@@ -76,7 +76,6 @@ section {
 .flexcontainer {
     display: flex;
     margin: 0px 20px;
-    
 }
 
 .flexcontainer p {
@@ -112,6 +111,10 @@ section#info div div div p {
 section#cactus {
     background: url('img/kaktus1.png') no-repeat center center/cover;
 }
+
+section#cactus .textwrapper {
+    background: rgba(95, 107, 87, 0.452);
+}
   
 section#info {
     background-color: #5F6B57;
@@ -120,7 +123,8 @@ section#info {
 
 section#care {
     background-color: #F4E4CD;
-    color: #414b3a;
+    /* color: #414b3a; */
+    color: rgb(58, 31, 6);
 }
 
 .careBox {
@@ -163,11 +167,20 @@ section#buy {
 
 .buyCactusBox p {
     margin-top: 5%;
+    font-size: 16px;
 }
 
 .buyCactusBox button {
-    margin-top: 5%;
+    margin-top: 10%;
+    background-color: white;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
 }
+
+.buyCactusBox button:hover {
+    box-shadow: 0 12px 16px 0 rgba(59, 66, 54, 0.76), 0 17px 50px 0 rgba(59, 66, 54, 0.76);
+  }
 
 
 /* Media Queries */
