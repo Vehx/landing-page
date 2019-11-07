@@ -123,6 +123,22 @@ section#care {
     color: #414b3a;
 }
 
+.careBox {
+    width: 100%;
+    height: 100vh;
+    margin-top: 20%;
+    margin-bottom:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.careItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section#buy {
     background-color: #5F6B57;
     height: 300vh;
