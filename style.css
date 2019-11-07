@@ -86,29 +86,12 @@ section {
     font-size: 12px;
 }
 
-.infoWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 80vh;
-    width: 80vw;
-    margin: 15% 0 0 0;
-}
-
-.infoImage {
-    width: 115px;
-}
-
 section h1 {
     font-size: 4rem;
 }
 
 section p {
     font-size: 1.5rem;
-}
-
-section#info div div div p {
-    margin: 0 0 0 1%;
 }
 
 /* Section Images */
@@ -130,6 +113,24 @@ section#cactus .textWrapper p {
 section#info {
     background-color: #5F6B57;
     justify-content: space-around;
+}
+
+section#info div div div p {
+    margin: 0 0 0 1%;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    margin: 15% 0 0 0;
+}
+
+.infoImage {
+    width: 115px;
 }
 
 section#care {
@@ -201,8 +202,33 @@ section#buy {
 /* Media Queries */
 @media screen and (min-width: 600px) {
 
+    section#cactus .textWrapper {
+        width: 35vw;
+        position: absolute;
+        align-self: center;
+        top: 50%;
+    }
+
+    .infoWrapper {
+        width: 90vw;
+        flex-direction: row;
+        margin: 0;
+    }
+
     section#buy {
         height: 100vh;
         flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    section#cactus .textWrapper {
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    section#cactus .textWrapper {
+        height: 30vh;
     }
 }
