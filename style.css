@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    background: #333;
+    background-color: #5F6B57;
     color: #fff;
     line-height: 1.6;
     height: 100vh;
@@ -223,6 +223,7 @@ section#buy {
 
     .buyCactusBox {
         max-width: 375px;
+        max-height: 100%;
         padding-top: 15%;
     }
 }
