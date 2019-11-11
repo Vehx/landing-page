@@ -203,7 +203,7 @@ section#buy {
 @media screen and (min-width: 600px) {
 
     section#cactus .textWrapper {
-        width: 35vw;
+        width: 45vw;
         position: absolute;
         align-self: center;
         top: 50%;
@@ -230,12 +230,14 @@ section#buy {
 
 @media screen and (min-width: 1000px) {
     section#cactus .textWrapper {
-        height: 35vh;
+        height: 46vh;
+        width: 40vw;
     }
 }
 
 @media screen and (min-width: 1400px) {
     section#cactus .textWrapper {
-        height: 30vh;
+        height: 35vh;
+        width: 40vw;
     }
 }
