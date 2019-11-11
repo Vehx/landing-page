@@ -233,6 +233,18 @@ footer p {
         flex-direction: row;
         margin: 0;
     }
+    
+    .careItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 120px;
+    }
+    
+    .careItem p {
+        font-size: 14px;
+        padding: 0 0 0 50px;
+    }
 
     section#buy {
         height: 100vh;
@@ -262,6 +274,18 @@ footer p {
     section#cactus .textWrapper {
         height: 46vh;
         width: 40vw;
+    }
+
+    .careItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 180px;
+    }
+    
+    .careItem p {
+        font-size: 14px;
+        padding: 0 0 0 50px;
     }
 
     section#buy {
