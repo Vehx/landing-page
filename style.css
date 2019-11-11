@@ -279,6 +279,10 @@ footer p {
     .careItem {
         padding: 15px 180px;
     }
+    
+    .careItem p {
+        font-size: 16px;
+    }
 
     section#buy {
         height: 100vh;
