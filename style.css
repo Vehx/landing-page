@@ -277,15 +277,7 @@ footer p {
     }
 
     .careItem {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 180px;
-    }
-    
-    .careItem p {
-        font-size: 14px;
-        padding: 0 0 0 50px;
+        padding: 15px 180px;
     }
 
     section#buy {
