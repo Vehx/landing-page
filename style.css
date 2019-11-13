@@ -290,7 +290,7 @@ footer p {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 120px;
+        padding: 0 190px;
     }
     
     .careItem p {
@@ -349,7 +349,7 @@ footer p {
     }
 
     .careItem {
-        padding: 15px 180px;
+        padding: 15px 130px;
     }
     
     .careItem p {
