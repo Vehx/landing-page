@@ -264,6 +264,10 @@ footer p {
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .infoImage {
+        width: 150px;
+    }
     
     .careItem {
         display: flex;
@@ -317,6 +321,10 @@ footer p {
     .flexContainer {
         width: 100%;
         height: 100vh;
+    }
+
+    .infoImage {
+        width: 175px;
     }
 
     .careBox {
