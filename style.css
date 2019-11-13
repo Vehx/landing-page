@@ -189,11 +189,13 @@ section#buy {
 
 .buyCactusBox h1 {
     margin-bottom: 5%;
+    font-size: 25px;
 }
 
 .buyCactusBox p {
     margin-top: 5%;
     font-size: 16px;
+    padding: 0 30px;
 }
 
 .buyCactusBox button {
