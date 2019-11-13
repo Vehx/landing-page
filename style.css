@@ -77,15 +77,6 @@ section {
     /* scroll-snap-align: center; */
 }
 
-.flexContainer {
-    display: flex;
-    margin: 0px 20px;
-}
-
-.flexContainer p {
-    font-size: 12px;
-}
-
 section h1 {
     font-size: 4rem;
 }
@@ -114,10 +105,25 @@ section#info {
     background-color: #fff;
     justify-content: space-around;
     color: #5F6B57;
+    height: 160vh;
 }
 
 section#info div div div p {
     margin: 0 0 0 1%;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0px 20px;
+}
+
+.flexContainer p {
+    margin-top: 5%;
+    font-size: 16px;
 }
 
 .infoWrapper {
@@ -125,7 +131,7 @@ section#info div div div p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+    height: 150vh;
     width: 80vw;
     margin: 15% 0 0 0;
 }
@@ -242,10 +248,21 @@ footer p {
         top: 50%;
     }
 
+    section#info {
+        height: 100vh;
+    }
+
+    .flexContainer {
+        max-width: 375px;
+        height: 50vh;
+        padding-top: 0px;
+    }
+
     .infoWrapper {
-        width: 90vw;
+        width: 100vw;
+        height: 100vh;
         flex-direction: row;
-        margin: 0;
+        justify-content: space-around;
     }
     
     .careItem {
@@ -288,6 +305,18 @@ footer p {
     section#cactus .textWrapper {
         height: 46vh;
         width: 40vw;
+    }
+
+    .infoWrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .flexContainer {
+        width: 100%;
+        height: 100vh;
     }
 
     .careBox {
