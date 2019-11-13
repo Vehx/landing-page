@@ -196,6 +196,7 @@ section#buy {
     margin-top: 5%;
     font-size: 16px;
     padding: 0 30px;
+    font-weight: 300;
 }
 
 .buyCactusBox button {
@@ -315,7 +316,6 @@ footer p {
     .buyCactusBox p {
         margin-top: 5%;
         font-size: 16px;
-        font-weight: 300;
     }
 }
 
